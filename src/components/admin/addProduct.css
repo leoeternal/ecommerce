@@ -1,0 +1,72 @@
+.addproduct-wrapper h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.addproduct-wrapper .addproduct-form {
+  /* border: 1px solid; */
+  width: 90%;
+  min-height: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.addproduct-form .level1,
+.addproduct-form .level7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.addproduct-form .level2,
+.addproduct-form .level6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 5px;
+}
+
+.addproduct-form .level3,
+.addproduct-form .level33,
+.addproduct-form .level8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+
+.addproduct-form .level4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.addproduct-form .level5 {
+  /* border: 1px solid; */
+  margin: 30px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.addproduct-form .level5 #feature {
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+.addproduct-form .level4 textarea,
+.addproduct-form .level5 textarea {
+  width: 100%;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0px 5px;
+  font-weight: 350;
+}

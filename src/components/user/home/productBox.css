@@ -1,0 +1,43 @@
+.productbox-wrapper {
+  border: 1px solid rgb(236, 236, 236);
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+}
+
+.productbox-wrapper .image {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productbox-wrapper .image img {
+  width: 80%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.productbox-wrapper .details {
+  padding: 10px;
+}
+
+.productbox-wrapper .details #name {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.productbox-wrapper .details #price {
+  color: red;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+hr {
+  background-color: rgb(218, 218, 218);
+  height: 1px;
+  border: 0;
+  width: 90%;
+  margin: auto;
+}

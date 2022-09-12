@@ -1,0 +1,141 @@
+.adminregister-wrapper {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminregister-wrapper .admincontainer {
+  /* border: 1px solid; */
+  width: 50%;
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.adminregister-wrapper .admincontainer h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.admincontainer .form {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* -------------------------------------------------------- LAPTOP L-1440px --------------------------------------------------- */
+
+@media (max-width: 841px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 701px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 604px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 527px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 468px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 423px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer {
+    height: 50%;
+  }
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 35px;
+    letter-spacing: -2px;
+  }
+}
+
+@media (max-width: 335px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 285px) and (min-height: 849px) {
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 25px;
+    letter-spacing: -1px;
+  }
+}
+
+/* -------------------------------------------------------- LAPTOP-1024px --------------------------------------------------- */
+
+@media (max-width: 841px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 703px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 602px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 527px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 468px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 421px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer {
+    height: 60%;
+  }
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 321px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 271px) and (min-height: 637px) {
+  .adminregister-wrapper .admincontainer h1 {
+    font-size: 23px;
+  }
+}

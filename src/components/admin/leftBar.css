@@ -1,0 +1,49 @@
+.leftbar-wrapper .box {
+  border-bottom: 1px solid rgb(196, 196, 196);
+  width: 100%;
+  min-height: 50px;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(252, 252, 252);
+}
+
+.box #main {
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(77, 77, 77);
+}
+
+.box #main:hover {
+  color: rgb(0, 0, 0);
+}
+
+.box .subproduct-box {
+  border-left: 1px solid;
+  width: 100%;
+  min-height: 50px;
+  position: relative;
+  left: 10px;
+  padding: 0px 15px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box .subproduct-boxhide {
+  display: none;
+}
+
+.box .subproduct-box #sub {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+  margin: 3px 0px;
+}
+
+.box .subproduct-box #sub:hover {
+  color: rgb(46, 46, 46);
+  cursor: pointer;
+}

@@ -1,0 +1,113 @@
+.productinfo-wrapper {
+  /* border: 1px solid; */
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.productinfo-wrapper .firstpage {
+  /* border: 1px solid; */
+  width: 99%;
+  min-height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstpage .image {
+  /* border: 1px solid; */
+  width: 39%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image .left {
+  /* border: 1px solid; */
+  width: 24%;
+  height: 85%;
+}
+
+.image .right {
+  /* border: 1px solid; */
+  width: 74%;
+  height: 65%;
+}
+
+.image .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.firstpage .detail {
+  /* border: 1px solid; */
+  width: 59%;
+  min-height: 600px;
+  padding: 20px;
+}
+
+.firstpage .detail #name {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.firstpage .detail #price {
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 20px 30px 0px 0px;
+}
+.firstpage .detail #mrp {
+  font-size: 25px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.firstpage .detail #save {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.firstpage .detail #stock {
+  margin-top: 10px;
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.firstpage .detail #nostock {
+  margin-top: 10px;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.firstpage .detail #delivery-days1 {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.firstpage .detail #delivery-days2 {
+  color: red;
+  font-weight: 500;
+}
+
+.productinfo-wrapper .detail-wrapper {
+  margin: 20px 0;
+  padding: 10px 30px;
+}
+
+.productinfo-wrapper .detail-wrapper #title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.productinfo-wrapper .detail-wrapper #info {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 10px 0px 0px 20px;
+}
