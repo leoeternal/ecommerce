@@ -1,0 +1,110 @@
+.successorder-wrapper {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.successorder-wrapper .level1 {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  display: flex;
+  padding: 15px;
+  position: relative;
+  background-color: rgb(241, 241, 241);
+}
+
+.level1 .total {
+  margin: 0 50px;
+}
+
+.level1 .orderid {
+  position: absolute;
+  right: 15px;
+}
+
+.level1 .shipto #shipto-name {
+  color: rgb(0, 113, 133);
+}
+
+.level1 .shipto #shipto-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(197, 55, 55);
+}
+
+.shipto .address-popup-hide {
+  display: none;
+}
+
+.shipto .address-popup {
+  border: 1px solid rgb(188, 188, 188);
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 999;
+  line-height: 23px;
+  margin-top: 2px;
+}
+
+.shipto .address-popup #closeicon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.shipto .address-popup #popup-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.shipto .address-popup #popup-city {
+  text-transform: uppercase;
+}
+
+.shipto .address-popup #popup-country {
+  text-transform: uppercase;
+}
+
+.successorder-wrapper .level2 {
+  display: flex;
+  padding: 15px;
+}
+
+.level2 .left {
+  width: 69%;
+}
+
+.level2 .left #delivery-date {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.level2 .left #product-name {
+  color: rgb(0, 113, 133);
+  margin: 5px 0;
+}
+
+.level2 .left #product-name:hover {
+  text-decoration: underline;
+  color: rgb(184, 51, 51);
+  cursor: pointer;
+}
+
+.level2 .left .seemore:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(134, 4, 255);
+}
+
+.level2 .left h4 {
+  margin: 10px 0 0 0;
+}
+
+.level2 .right {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+}

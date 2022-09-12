@@ -1,0 +1,15 @@
+.cartpopup-wrapper {
+  padding: 10px;
+}
+
+.cartpopup-wrapper .circular-progress {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartpopup-wrapper h1 {
+  margin-bottom: 5px;
+}

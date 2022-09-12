@@ -1,0 +1,22 @@
+.searchpage-wrapper {
+  display: flex;
+}
+
+.searchpage-wrapper .filter {
+  width: 30vw;
+}
+
+.searchpage-wrapper .products {
+  width: 70vw;
+  padding: 10px;
+}
+
+.searchpage-wrapper .products #search-query {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.searchpage-wrapper .product-mapping {
+  display: flex;
+  flex-wrap: wrap;
+}

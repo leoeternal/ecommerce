@@ -1,0 +1,19 @@
+.adminhome-wrapper {
+  /* border: 1px solid; */
+  width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.adminhome-wrapper .left-sidebar {
+  border-right: 1px solid rgb(196, 196, 196);
+  width: 17%;
+  min-height: 89vh;
+}
+
+.adminhome-wrapper .right-content {
+  /* border: 1px solid; */
+  width: 83%;
+  min-height: 89vh;
+}

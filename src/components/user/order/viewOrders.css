@@ -1,0 +1,27 @@
+.vieworders-wrapper {
+  padding: 30px 50px;
+}
+
+.vieworders-wrapper h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.vieworders-wrapper .tab {
+  margin: 20px 0px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  display: flex;
+}
+
+.vieworders-wrapper .tab p {
+  margin: 0 20px;
+  padding: 5px;
+  font-size: 18px;
+  color: rgb(73, 73, 73);
+}
+
+.vieworders-wrapper .zero-order-note {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}

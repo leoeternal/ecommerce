@@ -1,0 +1,42 @@
+.orderplaced-wrapper .success {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 10px rgb(202, 202, 202);
+}
+
+.orderplaced-wrapper .success #text-1 {
+  color: green;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.orderplaced-wrapper .success #confirmation {
+  font-size: 13px;
+  color: rgb(58, 58, 58);
+  margin: 10px 0px;
+}
+
+.orderplaced-wrapper .success #shipping {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+.success .deliverydate #delivery {
+  color: green;
+  margin: 10px 0px 2px 0px;
+}
+.success .deliverydate #date {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.orderplaced-wrapper .success #link {
+  color: rgb(0, 162, 255);
+}
+
+.orderplaced-wrapper .success #link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

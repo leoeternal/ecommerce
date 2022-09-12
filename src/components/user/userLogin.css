@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
+.userlogin-wrapper {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userlogin-wrapper .container {
+  /* border: 1px solid; */
+  width: 70%;
+  height: 70%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.userlogin-wrapper .container img {
+  /* border: 1px solid; */
+  width: 39%;
+  height: 100%;
+}
+
+.container .loginform {
+  /* border: 1px solid; */
+  width: 49%;
+  height: 100%;
+}
+
+.container .loginform #loginH1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Rammetto One", cursive;
+  color: rgb(58, 58, 58);
+  margin: 40px 0 0 0;
+}
+
+.container .loginform #registerH1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Rammetto One", cursive;
+  color: rgb(58, 58, 58);
+}
+
+.container .loginform p {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
+
+.container .loginform p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(54, 54, 54);
+}
+
+@media (max-width: 1006px) {
+  .userlogin-wrapper .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 938px) {
+  .userlogin-wrapper .container img {
+    width: 43%;
+  }
+
+  .container .loginform {
+    width: 55%;
+  }
+}
+
+@media (max-width: 838px) {
+  .userlogin-wrapper .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 741px) {
+  .userlogin-wrapper .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 663px) {
+  .userlogin-wrapper .container img {
+    display: none;
+  }
+  .container .loginform {
+    width: 85%;
+  }
+}
+
+@media (max-width: 438px) {
+  .container .loginform {
+    width: 95%;
+  }
+}
+
+@media (max-width: 393px) {
+  .userlogin-wrapper .container {
+    padding: 0;
+  }
+  .container .loginform {
+    width: 100%;
+  }
+}
+
+@media (max-width: 354px) {
+  .container .loginform #loginH1 {
+    font-size: 40px;
+  }
+  .container .loginform p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 316px) {
+  .container .loginform #loginH1 {
+    font-size: 35px;
+  }
+  .container .loginform p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 276px) {
+  .container .loginform #loginH1 {
+    font-size: 30px;
+  }
+  .container .loginform p {
+    font-size: 13px;
+  }
+}
